@@ -8,9 +8,12 @@ namespace Objects_Blockbuster_Video
 {
   class Blockbuster
   {
-    public List<Movie> Movies = new List<Movie>();
-    public void PrintMovies()
+    List<Movie> Movies { get; set; }
+
+    public Blockbuster()
     {
+      Movies = new List<Movie>();
+
       List<string> ScenesA = new List<string>() {
         "Fathoms Below",
         "Daughters of Triton",
@@ -77,7 +80,9 @@ namespace Objects_Blockbuster_Video
       Movies.Add(d);
       Movies.Add(e);
       Movies.Add(f);
-
+    }
+    public void PrintMovies()
+    {
       for (int i = 0; i < Movies.Count; i++)
       {
         Console.WriteLine($"Movie {i + 1}. {Movies[i].Title}");

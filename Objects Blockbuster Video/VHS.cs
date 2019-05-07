@@ -26,7 +26,7 @@ namespace Objects_Blockbuster_Video
       if (CurrentTime < Scenes.Count)
       { 
         string scene = Scenes[CurrentTime];
-        Console.WriteLine(scene);
+        Console.WriteLine($"The movie is starting at {scene}. Get your popcorn!");
         CurrentTime++;
       }
         else

@@ -21,7 +21,7 @@ namespace Objects_Blockbuster_Video
       int index = int.Parse(input);
 
       string scene = Scenes[index];
-      Console.WriteLine(scene);
+      Console.WriteLine($"The movie is starting at {scene}. Get your popcorn!");
     }
   }
 }
