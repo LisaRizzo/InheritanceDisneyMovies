@@ -1,0 +1,7 @@
+C:\Users\lisaa\source\repos\Objects Blockbuster Video\Objects Blockbuster Video\bin\Debug\Objects Blockbuster Video.exe.config
+C:\Users\lisaa\source\repos\Objects Blockbuster Video\Objects Blockbuster Video\bin\Debug\Objects Blockbuster Video.exe
+C:\Users\lisaa\source\repos\Objects Blockbuster Video\Objects Blockbuster Video\bin\Debug\Objects Blockbuster Video.pdb
+C:\Users\lisaa\source\repos\Objects Blockbuster Video\Objects Blockbuster Video\obj\Debug\Objects Blockbuster Video.csprojAssemblyReference.cache
+C:\Users\lisaa\source\repos\Objects Blockbuster Video\Objects Blockbuster Video\obj\Debug\Objects Blockbuster Video.csproj.CoreCompileInputs.cache
+C:\Users\lisaa\source\repos\Objects Blockbuster Video\Objects Blockbuster Video\obj\Debug\Objects Blockbuster Video.exe
+C:\Users\lisaa\source\repos\Objects Blockbuster Video\Objects Blockbuster Video\obj\Debug\Objects Blockbuster Video.pdb
