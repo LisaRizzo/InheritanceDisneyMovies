@@ -6,14 +6,16 @@ using System.Threading.Tasks;
 
 namespace Objects_Blockbuster_Video
 {
+  //inheritance
   class VHS : Movie
   {
     public int CurrentTime { get; set;}
 
+    //constructor
     public VHS(string Title, string Category, int Runtime, int Debut, List<string> Scenes)
       : base(Title, Category, Runtime, Debut, Scenes)
     {
-      
+      CurrentTime = 0;
     }
 
     //A property called CurrentTime
@@ -21,13 +23,21 @@ namespace Objects_Blockbuster_Video
     //A method called Rewind that returns nothing and sets CurrentTime to 0.
     public override void Play()
     {
+      if (CurrentTime < Scenes.Count)
+      { 
         string scene = Scenes[CurrentTime];
         Console.WriteLine(scene);
         CurrentTime++;
+      }
+        else
+      {
+        Rewind();
+      }
     }
 
     public void Rewind()
     {
+      Console.WriteLine("Movie done! Rewinding...");
       CurrentTime = 0;
     }
   }
